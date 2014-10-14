@@ -1,0 +1,15 @@
+# Vim swap files
+*.swp
+*.swo
+
+# Node dependencies
+node_modules
+
+# Webstorm configuration directory
+.idea
+
+# OS/X Directory store
+.DS_Store
+
+# Temp directories
+.tmp

@@ -1,0 +1,34 @@
+{
+  "name": "karma-requirejs-wrapper-preprocessor",
+  "version": "0.0.1",
+  "description": "Karma preprocessor that wraps script contents with a \"require(){}\" call. This is designed for use with karma-ng-html2js-preprocessor, by passing the output of that plugin into this one.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --reporter=spec"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-preprocessor",
+    "requirejs"
+  ],
+  "author": "Vamshi K Ponnapalli <vamshi.ponnapalli@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^1.21.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^1.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vamship/karma-requirejs-wrapper-preprocessor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vamship/karma-requirejs-wrapper-preprocessor/issues"
+  },
+  "homepage": "https://github.com/vamship/karma-requirejs-wrapper-preprocessor"
+}
