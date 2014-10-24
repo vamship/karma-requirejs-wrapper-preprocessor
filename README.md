@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/vamship/karma-requirejs-wrapper-preprocessor.svg)](https://travis-ci.org/vamship/karma-requirejs-wrapper-preprocessor)
 # karma-requirejs-wrapper-preprocessor
 A Karma preprocessor module that can be used to wrap the contents of files with a 'require() {}' call. While it can technically be used in a standalone manner with any data files, this module has been primarily developed to wrap the result of the ng-html2js processor module, for projects that primarily use RequireJS in conjuction with AngularJS.
 
@@ -47,4 +48,3 @@ The following options are supported:
  
  > ** NOTE: **
  > Using whitespaces in the names of the dependencies will break your module!
-
