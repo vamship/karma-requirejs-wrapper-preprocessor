@@ -47,3 +47,4 @@ The following options are supported:
  
  > ** NOTE: **
  > Using whitespaces in the names of the dependencies will break your module!
+
